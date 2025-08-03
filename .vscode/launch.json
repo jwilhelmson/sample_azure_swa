@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SWA: Start and open browser",
+            "type": "pwa-node",
+            "request": "launch",
+            "program": "${workspaceFolder}/vue-app/node_modules/.bin/swa",
+            "args": ["start", "--open"],
+            "cwd": "${workspaceFolder}",
+            "args": ["start", "--open"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
